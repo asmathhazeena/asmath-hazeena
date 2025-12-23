@@ -1,8 +1,8 @@
 import { Beaker, Microscope, Dna, FileText, Award, BookOpen, Users, Activity } from 'lucide-react';
-import nihLogo from '../assets/nih_logo.png';
-import pcsirLogo from '../assets/pcsir_logo.png';
-import venusLogo from '../assets/venus_lanka_logo.png';
-import pafLogo from '../assets/paf_iast_logo.png';
+import nihLogo from '../../public/assets/nih_logo.png';
+import pcsirLogo from '../../public/assets/pcsir_logo.png';
+import venusLogo from '../../public/assets/venus_lanka_logo.png';
+import pafLogo from '../../public/assets/paf_iast_logo.png';
 
 export const portfolioData = {
     hero: {
