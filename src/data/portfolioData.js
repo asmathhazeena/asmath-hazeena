@@ -14,7 +14,7 @@ export const portfolioData = {
         location: "Batticaloa, Sri Lanka",
         linkedin: "https://www.linkedin.com/in/asmath-hazeena-6479ba308/",
         cvLink: "#",
-        image: "/assets/profile.jpg"
+        image: "../../public/assets/profile.jpg"
     },
     experience: [
         {
@@ -24,7 +24,7 @@ export const portfolioData = {
             duration: "Internship",
             logo: nihLogo,
             description: "Processed and handled medical samples in diagnostic laboratory settings.",
-            certificate: "/assets/certificates/nih_internship.pdf",
+            certificate: "../../public/assets/certificates/nih_internship.pdf",
             responsibilities: [
                 "Gained practical experience in molecular diagnostics and laboratory workflows.",
                 "Provided data entry and patient record management support.",
@@ -38,7 +38,7 @@ export const portfolioData = {
             duration: "Trainee",
             logo: pcsirLogo,
             description: "Assisted in analytical testing of industrial, environmental, and food samples.",
-            certificate: "/assets/certificates/pcsir_trainee.pdf",
+            certificate: "../../public/assets/certificates/pcsir_trainee.pdf",
             responsibilities: [
                 "Learned techniques for water and air quality testing, mineral analysis, and food safety.",
                 "Gained knowledge of standardized testing methods for industrial applications."
@@ -51,7 +51,7 @@ export const portfolioData = {
             duration: "Assistant",
             logo: venusLogo,
             description: "Participated in clinical diagnostic procedures in hematology, microbiology, and biochemistry.",
-            certificate: "/assets/certificates/venus_lanka_assistant.pdf",
+            certificate: "../../public/assets/certificates/venus_lanka_assistant.pdf",
             responsibilities: [
                 "Assisted in sample collection, handling, and laboratory testing.",
                 "Gained understanding of laboratory workflows and quality control processes."
@@ -64,7 +64,7 @@ export const portfolioData = {
             duration: "Academic Role",
             logo: pafLogo,
             description: "Observed and learned the fundamentals of biomedical instrumentation and diagnostic tools.",
-            certificate: "/assets/certificates/paf_iast_research.pdf",
+            certificate: "../../public/assets/certificates/paf_iast_research.pdf",
             responsibilities: [
                 "Gained exposure to laboratory practices and medical technologies during early academic training."
             ]
@@ -129,28 +129,28 @@ export const portfolioData = {
             title: "Dean's List of Honour",
             issuer: "PAF-IAST",
             year: "2023",
-            certificate: "/assets/certificates/deans_list_2023.pdf"
+            certificate: "../../public/assets/certificates/deans_list_2023.pdf"
         },
         {
             id: 11,
             title: "Dean's List of Honour",
             issuer: "PAF-IAST",
             year: "2024",
-            certificate: "/assets/certificates/deans_list_2024.pdf"
+            certificate: "../../public/assets/certificates/deans_list_2024.pdf"
         },
         {
             id: 12,
             title: "Dean's List of Honour",
             issuer: "PAF-IAST",
             year: "2025",
-            certificate: "/assets/certificates/deans_list_2025.pdf"
+            certificate: "../../public/assets/certificates/deans_list_2025.pdf"
         },
         {
             id: 2,
             title: "Inter-Varsity Business Idea Competition",
             issuer: "PAF-IAST",
             year: "Certificate of Appreciation",
-            certificate: "/assets/certificates/business_idea_competition.pdf"
+            certificate: "../../public/assets/certificates/business_idea_competition.pdf"
         }
     ],
     certificates: [
@@ -159,35 +159,35 @@ export const portfolioData = {
             name: "Docking, Homology Modeling & Active Site Prediction",
             platform: "DISCOVERY BOULEVARD",
             year: "2025",
-            certificate: "/assets/certificates/docking_homology.pdf"
+            certificate: "../../public/assets/certificates/docking_homology.pdf"
         },
         {
             id: 2,
             name: "Basic Laboratory Course",
             platform: "PAF-IAST",
             year: "2022",
-            certificate: "/assets/certificates/basic_lab_course.pdf"
+            certificate: "../../public/assets/certificates/basic_lab_course.pdf"
         },
         {
             id: 3,
             name: "Python for Beginners",
             platform: "SimpliLearn",
             year: "2022",
-            certificate: "/assets/certificates/python_beginners.pdf"
+            certificate: "../../public/assets/certificates/python_beginners.pdf"
         },
         {
             id: 4,
             name: "Bio risk Management Workshop",
             platform: "PAF-IAST",
             year: "Workshop",
-            certificate: "/assets/certificates/biorisk_workshop.pdf"
+            certificate: "../../public/assets/certificates/biorisk_workshop.pdf"
         },
         {
             id: 5,
             name: "Integrative Life Sciences Conference",
             platform: "NUST",
             year: "Participation",
-            certificate: "/assets/certificates/nust_conference.pdf"
+            certificate: "../../public/assets/certificates/nust_conference.pdf"
         }
     ],
     education: [
