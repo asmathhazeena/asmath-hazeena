@@ -4,6 +4,20 @@ import pcsirLogo from '../../public/assets/pcsir_logo.png';
 import venusLogo from '../../public/assets/venus_lanka_logo.png';
 import pafLogo from '../../public/assets/paf_iast_logo.png';
 import profileimge from '../../public/assets/profile.jpg';
+import nih_internship from '../../public/assets/certificates/nih_internship.pdf';
+import pcsir_trainee from '../../public/assets/certificates/pcsir_trainee.pdf';
+import venus_lanka_assistant from '../../public/assets/certificates/venus_lanka_assistant.pdf';
+import paf_iast_research from '../../public/assets/certificates/paf_iast_research.pdf';
+import deans_list_2023 from '../../public/assets/certificates/deans_list_2023.pdf';
+import deans_list_2024 from '../../public/assets/certificates/deans_list_2024.pdf';
+import deans_list_2025 from '../../public/assets/certificates/deans_list_2025.pdf';
+import business_idea_competition from '../../public/assets/certificates/business_idea_competition.pdf';
+import docking_homology from '../../public/assets/certificates/docking_homology.pdf';
+import basic_lab_course from '../../public/assets/certificates/basic_lab_course.pdf';
+import python_beginners from '../../public/assets/certificates/python_beginners.pdf';
+import biorisk_workshop from '../../public/assets/certificates/biorisk_workshop.pdf';
+import nust_conference from '../../public/assets/certificates/nust_conference.pdf';
+import blood_donation from '../../public/assets/certificates/blood_donation.pdf';
 
 export const portfolioData = {
     hero: {
@@ -25,7 +39,7 @@ export const portfolioData = {
             duration: "Internship",
             logo: nihLogo,
             description: "Processed and handled medical samples in diagnostic laboratory settings.",
-            certificate: "../../public/assets/certificates/nih_internship.pdf",
+            certificate: nih_internship,
             responsibilities: [
                 "Gained practical experience in molecular diagnostics and laboratory workflows.",
                 "Provided data entry and patient record management support.",
@@ -39,7 +53,7 @@ export const portfolioData = {
             duration: "Trainee",
             logo: pcsirLogo,
             description: "Assisted in analytical testing of industrial, environmental, and food samples.",
-            certificate: "../../public/assets/certificates/pcsir_trainee.pdf",
+            certificate: pcsir_trainee,
             responsibilities: [
                 "Learned techniques for water and air quality testing, mineral analysis, and food safety.",
                 "Gained knowledge of standardized testing methods for industrial applications."
@@ -52,7 +66,7 @@ export const portfolioData = {
             duration: "Assistant",
             logo: venusLogo,
             description: "Participated in clinical diagnostic procedures in hematology, microbiology, and biochemistry.",
-            certificate: "../../public/assets/certificates/venus_lanka_assistant.pdf",
+            certificate: venus_lanka_assistant,
             responsibilities: [
                 "Assisted in sample collection, handling, and laboratory testing.",
                 "Gained understanding of laboratory workflows and quality control processes."
@@ -65,7 +79,7 @@ export const portfolioData = {
             duration: "Academic Role",
             logo: pafLogo,
             description: "Observed and learned the fundamentals of biomedical instrumentation and diagnostic tools.",
-            certificate: "../../public/assets/certificates/paf_iast_research.pdf",
+            certificate: paf_iast_research,
             responsibilities: [
                 "Gained exposure to laboratory practices and medical technologies during early academic training."
             ]
@@ -130,28 +144,28 @@ export const portfolioData = {
             title: "Dean's List of Honour",
             issuer: "PAF-IAST",
             year: "2023",
-            certificate: "../../public/assets/certificates/deans_list_2023.pdf"
+            certificate: deans_list_2023
         },
         {
             id: 11,
             title: "Dean's List of Honour",
             issuer: "PAF-IAST",
             year: "2024",
-            certificate: "../../public/assets/certificates/deans_list_2024.pdf"
+            certificate: deans_list_2024
         },
         {
             id: 12,
             title: "Dean's List of Honour",
             issuer: "PAF-IAST",
             year: "2025",
-            certificate: "../../public/assets/certificates/deans_list_2025.pdf"
+            certificate: deans_list_2025
         },
         {
             id: 2,
             title: "Inter-Varsity Business Idea Competition",
             issuer: "PAF-IAST",
             year: "Certificate of Appreciation",
-            certificate: "../../public/assets/certificates/business_idea_competition.pdf"
+            certificate: business_idea_competition
         }
     ],
     certificates: [
@@ -160,35 +174,35 @@ export const portfolioData = {
             name: "Docking, Homology Modeling & Active Site Prediction",
             platform: "DISCOVERY BOULEVARD",
             year: "2025",
-            certificate: "../../public/assets/certificates/docking_homology.pdf"
+            certificate: docking_homology
         },
         {
             id: 2,
             name: "Basic Laboratory Course",
             platform: "PAF-IAST",
             year: "2022",
-            certificate: "../../public/assets/certificates/basic_lab_course.pdf"
+            certificate: basic_lab_course
         },
         {
             id: 3,
             name: "Python for Beginners",
             platform: "SimpliLearn",
             year: "2022",
-            certificate: "../../public/assets/certificates/python_beginners.pdf"
+            certificate: python_beginners
         },
         {
             id: 4,
             name: "Bio risk Management Workshop",
             platform: "PAF-IAST",
             year: "Workshop",
-            certificate: "../../public/assets/certificates/biorisk_workshop.pdf"
+            certificate: biorisk_workshop
         },
         {
             id: 5,
             name: "Integrative Life Sciences Conference",
             platform: "NUST",
             year: "Participation",
-            certificate: "../../public/assets/certificates/nust_conference.pdf"
+            certificate: nust_conference
         }
     ],
     education: [
@@ -225,7 +239,7 @@ export const portfolioData = {
             role: "Voluntary Blood Donation",
             organization: "Blood Donation Camp 2025",
             description: "Certificate of Appreciation for voluntary contribution.",
-            certificate: "/assets/certificates/blood_donation.pdf"
+            certificate: blood_donation
         }
     ]
 };
