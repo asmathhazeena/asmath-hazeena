@@ -3,6 +3,7 @@ import nihLogo from '../../public/assets/nih_logo.png';
 import pcsirLogo from '../../public/assets/pcsir_logo.png';
 import venusLogo from '../../public/assets/venus_lanka_logo.png';
 import pafLogo from '../../public/assets/paf_iast_logo.png';
+import profileimge from '../../public/assets/profile.jpg';
 
 export const portfolioData = {
     hero: {
@@ -14,7 +15,7 @@ export const portfolioData = {
         location: "Batticaloa, Sri Lanka",
         linkedin: "https://www.linkedin.com/in/asmath-hazeena-6479ba308/",
         cvLink: "#",
-        image: "../../public/assets/profile.jpg"
+        image: profileimge
     },
     experience: [
         {
